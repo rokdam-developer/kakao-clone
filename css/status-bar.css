@@ -1,0 +1,22 @@
+/* 모든 페이지에서 사용하는 컴포넌트라서 따로 분리 */
+
+.status-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  font-weight: 600;
+}
+
+.status-bar__column {
+  display: flex;
+  align-items: center;
+}
+
+.status-bar__column i {
+  margin-left: 8px;
+}
+
+.status-bar__column i:nth-child(3) {
+  font-size: 23px;
+}
