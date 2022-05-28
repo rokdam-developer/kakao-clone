@@ -1,7 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
 @import "reset.css";
-@import "status-bar.css";
+@import "variable.css";
 
+/* Componenets */
+@import "/css/components/status-bar.css";
+
+/* Screens */
+@import "/css/screens/login.css";
+
+/* Common effects for all pages*/
 body {
   font-family: "Open Sans", sans-serif;
+  -webkit-touch-callout: none;
+  user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+}
+
+input:focus {
+  outline: none;
 }
