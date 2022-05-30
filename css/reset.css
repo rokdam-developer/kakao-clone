@@ -127,3 +127,24 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+/* Common effects for all pages*/
+body {
+  -webkit-touch-callout: none;
+  user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  font-family: "Open Sans", sans-serif;
+  color: #2e363e;
+  height: 1000vh;
+}
+
+input:focus {
+  outline: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

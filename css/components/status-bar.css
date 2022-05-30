@@ -4,8 +4,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: white;
+  padding: 10px;
   font-weight: 600;
+  position: fixed;
+  top: 0;
 }
 
 .status-bar__column {
