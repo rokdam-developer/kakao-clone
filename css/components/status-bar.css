@@ -7,10 +7,11 @@
   width: 100%;
   box-sizing: border-box;
   background-color: white;
-  padding: 10px;
+  padding: 10px 15px;
   font-weight: 600;
   position: fixed;
   top: 0;
+  z-index: 100;
 }
 
 .status-bar__column {
