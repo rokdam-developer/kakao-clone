@@ -148,3 +148,7 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+main {
+  padding: 0 var(--main-padding);
+}

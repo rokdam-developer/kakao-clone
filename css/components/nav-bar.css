@@ -1,7 +1,7 @@
 .nav-bar__list {
   display: flex;
   justify-content: space-between;
-  background-color: rgba(0, 0, 0, 0.03);
+  background-color: #f0f0f0;
   box-sizing: border-box;
   padding: 25px 30px;
   width: 100%;

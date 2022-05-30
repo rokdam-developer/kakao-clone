@@ -1,0 +1,67 @@
+.user {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.user__column {
+  display: flex;
+  align-items: center;
+}
+
+.user-avatar {
+  width: 65px;
+  height: 65px;
+  border-radius: 26px;
+  margin-right: 18px;
+}
+
+.avatar-sm {
+  width: 55px;
+  height: 55px;
+  border-radius: 22px;
+}
+
+.avatar-xs {
+  width: 30px;
+  height: 30px;
+  border-radius: 16px;
+}
+
+.user-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.user-name {
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.user-text {
+  margin-top: 12px;
+  font-weight: 600;
+  font-size: 12px;
+  color: var(--text-grey);
+}
+
+.user-sub {
+  display: flex;
+  align-items: center;
+  border: 2px solid rgb(98, 216, 98);
+  padding: 8px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-grey);
+}
+
+.user-music-title {
+  margin-right: 10px;
+}
+
+.user-music-icon {
+  color: rgb(98, 216, 98);
+}
