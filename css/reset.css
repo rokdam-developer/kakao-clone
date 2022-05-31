@@ -137,7 +137,11 @@ body {
   -webkit-user-select: none;
   font-family: "Open Sans", sans-serif;
   color: #2e363e;
-  height: 1000vh;
+  /* height: 1000vh; */
+}
+
+#index-body {
+  height: 0;
 }
 
 input:focus {
