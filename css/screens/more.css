@@ -1,0 +1,188 @@
+/* screen-header__more-header */
+.more-header {
+  padding: 20px var(--main-padding);
+}
+
+/* Wallet */
+.wallet {
+  background-color: var(--yellow);
+  padding: 25px;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-between; */
+}
+
+.wallet-column {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wallet-column:not(.wallet-column:nth-child(2)) {
+  padding-left: 10px;
+}
+
+.wallet-column:not(.wallet-column:last-child) {
+  margin-bottom: 20px;
+}
+
+.wallet-column__column {
+  display: flex;
+  align-items: center;
+}
+
+.wallet-title {
+  font-weight: 600;
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.wallet-title-icon {
+  font-size: 15px;
+  opacity: 0.7;
+}
+
+.wallet-subtitle-icon {
+  margin-right: 5px;
+}
+
+.wallet-subtitle {
+  font-weight: 600;
+}
+
+.wallet-column:nth-child(2) {
+  background-color: white;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+.wallet-bar-lefticon {
+  margin-right: 10px;
+}
+
+.wallet-bar-text {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.wallet-bar-righticon {
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+.pay-icon {
+  font-size: 16px;
+  margin-right: 3px;
+}
+
+.pay-text {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.pay-price-text {
+  font-weight: 600;
+}
+
+.wallet-column:nth-child(4) {
+  margin-top: 28px;
+}
+
+.bank-text {
+  font-weight: 600;
+  margin-right: 11px;
+}
+
+.bank-text:not(.bank-text:last-child) {
+  border-right: 0.5px solid rgba(0, 0, 0, 0.3);
+  padding-right: 13px;
+}
+
+.bank-icon {
+  margin-right: 8px;
+}
+
+/* more-icon */
+.more-icon {
+  margin-top: 10px;
+}
+
+.more-icon-groups {
+  border: none;
+  opacity: 0.8;
+  display: flex;
+  justify-content: space-between;
+}
+
+.more-icon-groups__column {
+  width: 20%;
+}
+
+.more-icon-groups__column i {
+  margin-bottom: 10px;
+  opacity: 0.8;
+  position: relative;
+}
+
+.more-icon-groups__column span {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.certification-more-icon {
+  display: block;
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 3px;
+  position: absolute;
+  right: -8px;
+  top: -3px;
+}
+
+/* band-advertise */
+.brand-advertise-a {
+  display: block;
+  margin-bottom: 80px;
+}
+
+.brand-advertise {
+  padding: 0 var(--main-padding);
+  position: relative;
+}
+
+.brand-advertise-ad {
+  position: absolute;
+  right: 40px;
+  top: 10px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  padding: 3px 8px;
+  color: white;
+  font-size: 11px;
+}
+
+.brand-advertise__img {
+  width: 100%;
+  height: 200px;
+  border-radius: 8px;
+}
+
+.brand-advertise__text {
+  position: absolute;
+  bottom: 12px;
+  left: 35px;
+  color: white;
+  font-size: 14px;
+}
+
+.brand-advertise__btn {
+  position: absolute;
+  right: 40px;
+  bottom: 13px;
+  color: white;
+  font-size: 12px;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 6px 8px;
+  border: 1px solid white;
+  border-radius: 6px;
+}

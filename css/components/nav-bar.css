@@ -29,8 +29,8 @@
   width: 24px;
   height: 24px;
   position: absolute;
-  left: 13px;
-  bottom: -2px;
+  right: -3px;
+  top: -15px;
 }
 
 .certification-more-relative {
@@ -41,12 +41,14 @@
   width: 5px;
   height: 5px;
   position: absolute;
-  right: -5px;
-  top: -12px;
+  right: 2px;
+  top: -3px;
 }
 
 .nav-bar__a i {
   color: rgba(0, 0, 0, 0.45);
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 .nav-bar__a .on {
