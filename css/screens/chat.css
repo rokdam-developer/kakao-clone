@@ -1,0 +1,151 @@
+.chat-body,
+.chat-status-bar {
+  background-color: #abc0d1;
+}
+
+.chat-main {
+  padding: 0;
+  position: relative;
+}
+
+/* chat-header */
+.chat-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px var(--main-padding);
+  margin-top: 35px;
+  background-color: #abc0d1;
+  font-size: 19px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.7);
+  box-sizing: border-box;
+}
+
+.chat-header__column a {
+  padding: 5px;
+}
+
+.chat-header__column:last-child a:last-child i {
+  position: relative;
+}
+
+.chat-header__icon-cerfiticaition {
+  background-color: tomato;
+  display: block;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  position: absolute;
+  right: -8px;
+  top: -6px;
+}
+
+/* notify */
+.notify-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 25px;
+  background-color: white;
+  position: absolute;
+  right: 25px;
+}
+
+/* massage-box */
+.massage-box {
+  padding: 0 15px;
+  margin-top: 15px;
+}
+
+.send-massage {
+  display: flex;
+}
+
+.send-massage__img {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin-right: 10px;
+}
+
+.send-massage__name {
+}
+
+.send-massage__texts {
+  display: flex;
+  align-items: flex-end;
+}
+
+.send-massage__text {
+  background-color: white;
+  padding: 13px;
+  border-radius: 20px;
+  margin-top: 8px;
+  border-top-left-radius: 0;
+  margin-right: 5px;
+  font-weight: 600;
+}
+
+.send-massage__timestamp {
+  font-size: 12px;
+}
+
+.send-massage--owner {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.send-massage__text--owner {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 0;
+  background-color: var(--yellow);
+  order: 2;
+  margin-left: 5px;
+}
+
+.send-massage__timestamp--owner {
+  order: 1;
+}
+
+/* send-box */
+.send-box {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 8px 15px;
+  color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  box-sizing: border-box;
+  position: fixed;
+  bottom: 0;
+}
+
+.send-box > a {
+  padding: 5px 8px;
+  width: 5%;
+}
+
+.send-box form {
+  width: 88%;
+  position: relative;
+}
+
+.send-box form input {
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  padding: 9px;
+  font-weight: 18px;
+  width: 100%;
+}
+
+.send-box__input-icons {
+  position: absolute;
+  right: 0px;
+  top: 10px;
+}
+
+.send-box__input-icon {
+  margin-left: 10px;
+}
