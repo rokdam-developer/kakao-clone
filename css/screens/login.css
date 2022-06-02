@@ -72,3 +72,28 @@
   font-size: 13px;
   margin-top: 8px;
 }
+
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+#splash-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 132px;
+  background-color: var(--yellow);
+  height: 110vh;
+  width: 100%;
+  position: absolute;
+  top: -50px;
+  z-index: 100;
+  animation: hideSplashScreen 1s ease-in-out forwards;
+  animation-delay: 1s;
+}
