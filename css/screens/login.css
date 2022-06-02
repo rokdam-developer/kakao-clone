@@ -89,10 +89,10 @@
   align-items: center;
   font-size: 132px;
   background-color: var(--yellow);
-  height: 110vh;
+  height: 100vh;
   width: 100%;
   position: absolute;
-  top: -50px;
+  top: 0px;
   z-index: 100;
   animation: hideSplashScreen 1s ease-in-out forwards;
   animation-delay: 1s;

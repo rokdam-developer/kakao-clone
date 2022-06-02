@@ -7,6 +7,7 @@
 @import "/css/components/nav-bar.css";
 @import "/css/components/screen-header.css";
 @import "/css//components/user.css";
+@import "/css/components/no-mobile.css";
 
 /* Screens */
 @import "/css/screens/login.css";
